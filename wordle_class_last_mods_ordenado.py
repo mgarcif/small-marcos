@@ -3,7 +3,7 @@ if platform.system().lower() == 'windows':
     import os
     os.system("")  # enables ansi escape characters in terminal (supposedly) 
 import random, io
-
+s
 class Game(object):
 
     # precondition: not (client_is_human==True and server_is_computer==False)
@@ -148,9 +148,6 @@ class HumanPlayer(object):
     
     def __str__(self):
         return HumanPlayer.player
-
-
-
 
 class Clue(object):
     
